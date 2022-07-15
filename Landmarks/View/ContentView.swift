@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LandmarkList()
+        //LandmarkList()
+        HikeView(hike: ModelData().hikes[0])
     }
 }
 
